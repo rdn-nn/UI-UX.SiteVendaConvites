@@ -43,7 +43,7 @@
 
 .navbar-menu ul li ul {
     position: absolute;
-    background: #FC8B8B;
+    background: white;
     display: block;
     pointer-events: none;
     opacity: 0;

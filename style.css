@@ -2,6 +2,7 @@
 
 :root {
     font-size: 15px;
+    
 }
 *{
     padding: 0;
@@ -50,4 +51,39 @@ footer{
 
 .navbar-toggler:focus{
     box-shadow: 0 0 0 0;
+}
+
+.title-section{
+    color: white;
+}
+/* Criando o estilo da linha esquerda (before) e linha direita (after) */
+.title-line:before,
+.title-line:after {
+  background-color: white;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+/*Ajustes no tema do carrossel*/
+.carousel-indicators [data-bs-target] {
+    background-color: black !important;
+}
+.carousel-indicators{
+    bottom: 10px;
+}
+.carousel-caption{
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+}
+.carousel-caption h5,
+.carousel-caption p{
+    color: black;
+}
+.carousel-caption h5{
+    text-transform: uppercase;
+   font-weight: bold; 
 }
