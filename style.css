@@ -22,6 +22,10 @@ footer{
 
 }
 
+.bg-light{
+    background:#F8EEEE !important;
+}
+
 .hearder-cali{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url('./assets/img/TopCali.jpg'), no-repeat;
     /* height: 400px; */
@@ -68,6 +72,17 @@ footer{
   width: 50%;
 }
 
+.title-lineB:before,
+.title-lineB:after {
+  background-color: black;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
 /*Ajustes no tema do carrossel*/
 .carousel-indicators [data-bs-target] {
     background-color: black !important;
@@ -86,4 +101,16 @@ footer{
 .carousel-caption h5{
     text-transform: uppercase;
    font-weight: bold; 
+}
+
+.text-black{
+        color: black !important;
+}
+
+
+
+
+.card-img-top{
+    max-height: 200px;
+    object-fit: cover;
 }
