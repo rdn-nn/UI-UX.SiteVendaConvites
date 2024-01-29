@@ -2,10 +2,12 @@
 .navbar-menu {
     background: white;
 }
+
 .navbar-menu img {
     height: 1.3rem;
     padding-right: .5rem;
 }
+
 .navbar-menu ul {
     display: flex;
     justify-content: center;
@@ -16,18 +18,21 @@
     padding-top: 5px;
     padding-bottom: 5px;
 }
-.navbar-menu .imagem{
+
+.navbar-menu .imagem {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .navbar-menu ul li {
     display: inline;
 }
+
 .navbar-menu ul li i {
     padding-right: .5rem;
 }
- 
+
 .navbar-menu ul li a {
     color: black;
     padding: .5rem 1.2rem;
@@ -72,12 +77,14 @@
 
 
 /*MENU INFERIOR PERSONALIZADO*/
-.navbar-menu-bottom{
+.navbar-menu-bottom {
     background: white;
 }
+
 .navbar-menu-bottom img {
-    height: 2rem; 
+    height: 2rem;
 }
+
 .navbar-menu-bottom ul {
     display: flex;
     justify-content: center;
@@ -88,11 +95,13 @@
     padding-bottom: 5px;
     margin: 0;
 }
-.navbar-menu-bottom .logoCali{
+
+.navbar-menu-bottom .logoCali {
     display: flex;
     justify-content: center;
-    align-items: center;  
+    align-items: center;
 }
+
 .navbar-menu-bottom ul li {
     display: inline;
 }
@@ -105,4 +114,3 @@
     text-decoration: none;
     transition: all .2s ease-in-out;
 }
-

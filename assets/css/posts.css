@@ -1,0 +1,22 @@
+.card-img-posts {
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.btn-color {
+    color: #F8EEEE;
+    background: #FC8B8B;
+    border: none;
+    transition: all .3s ease-in-out;
+}
+
+.btn-color:hover {
+    background: #fc8b8bd5;
+}
+
+.preview-post {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
