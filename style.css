@@ -10,15 +10,8 @@
     box-sizing: border-box;
 }
 
-header{
-    
-}
-main{
+body{
     background: url('./assets/img/bg.jpg'), no-repeat;
-    height: 100vh;
-}
-footer{
-
 }
 
 .bg-light{
@@ -178,6 +171,99 @@ footer{
     overflow: hidden;
     text-overflow: ellipsis; 
 }
+
+.links-footer, .links-footer-contato{
+    list-style-type: none;
+    text-transform: capitalize;
+    padding: 0;
+}
+.links-footer li, .links-footer-contato li{
+    padding: .5rem 0 0 0;
+}
+.links-footer a, .links-footer-contato a{
+    color: white;
+    text-decoration: none;
+}
+
+.links-footer a i{
+    position: relative;
+    right: 10%;
+    top: 50%;
+    font-size: 0px;
+    font-weight: bold;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .3s ease-in-out;
+}
+.links-footer a:hover i{
+    opacity: 1;
+    pointer-events: auto;
+    right: 0%;
+    font-size: 1rem;
+    padding-right: .5rem;
+} 
+.links-footer-contato i{
+    position: relative;
+    pointer-events: auto;
+    right: 0%;
+    font-size: 1rem;
+    padding-right: .5rem;
+}
+.links-footer-contato .map {
+    width: 100%;
+    padding: .5rem 0 0 0;
+}
+
+
+.social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-media a{
+    width: 3rem;
+    height: 3rem;
+    text-decoration: none;
+    color: white;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    background: #FC8B8B;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s ease-in-out;
+}
+
+.social-media a:hover{
+    color: #FC8B8B;
+    background: white;
+}
+
+.credits{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    background-color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.credits span {
+    color: #FC8B8B;
+}
+.credits span img{
+    width: 1.5rem;
+}
+@media screen and (max-width:990px) { 
+    .small-view{
+        padding-bottom: 6rem;
+    }
+ }
+
 @media screen and (max-width:767px) { 
     .fs-circle {
         font-size: 0.75rem;
@@ -185,5 +271,8 @@ footer{
     .pin-circle{
         width: 80px;
         height: 80px;
+    }
+    .small-view{
+        padding-bottom: 6rem;
     }
  }
