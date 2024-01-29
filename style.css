@@ -117,6 +117,7 @@ footer{
 .card-img-top{
     max-height: 200px;
     object-fit: cover;
+    object-position: center;
 }
 
 .fs-circle{
@@ -155,6 +156,28 @@ footer{
     border-radius: 5px 0 0 0;
 } 
 
+.card-img-posts{
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.btn-color{
+    color: #F8EEEE;
+    background: #FC8B8B; 
+    border: none;
+    transition: all .3s ease-in-out;
+}
+.btn-color:hover{
+    background: #fc8b8bd5; 
+}
+
+
+.preview-post{
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
 @media screen and (max-width:767px) { 
     .fs-circle {
         font-size: 0.75rem;
